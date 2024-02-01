@@ -1,0 +1,188 @@
+.quiz_container {
+  color: #9f9f9f;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  position: relative;
+}
+
+/* timer */
+.timer {
+  position: absolute;
+  bottom: 30%;
+  right: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.timer p {
+  font-size: 2rem;
+  color: #9f9f9f;
+  font-weight: 500;
+}
+
+.timer button {
+  box-shadow: 0 0 12px 1px rgba(0, 0, 0, 0.2);
+  padding: 0.5rem 2rem;
+  font-size: 1.6rem;
+  border-radius: 1rem;
+  text-align: center;
+  cursor: pointer;
+  width: 6rem;
+}
+
+.timer-btn-active {
+  background-color: #d60000;
+  color: #fff;
+}
+
+.total_questions {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.question_number {
+  width: 4.4rem;
+  height: 4.4rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color: #fff;
+  box-shadow: 0 0 12px 1px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+}
+
+.question_number_text {
+  font-size: 1.6rem;
+}
+
+.question-text {
+  padding: 1rem;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0 0 12px 1px rgba(0, 0, 0, 0.15);
+  border-radius: 1rem;
+  font-size: 2rem;
+  color: #9f9f9f;
+}
+
+.delete_question {
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+}
+
+.max_questions {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.add_question {
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.option_type {
+  font-size: 2rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2rem;
+}
+
+.input-radio {
+  height: 1.6rem;
+  width: 1.6rem;
+  display: inline-block;
+  outline: 2px solid #9f9f9f;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.input-radio-active {
+  background-color: #000;
+  border: 3px solid #fff;
+}
+
+.option-radio-active {
+  background-color: #60b84b;
+  border: 3px solid #fff;
+}
+
+.options_container {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.option {
+  display: flex;
+  gap: 2.4rem;
+  align-items: center;
+}
+
+.option-text {
+  padding: 1rem;
+  background-color: #fff;
+  box-shadow: 0 0 12px 1px rgba(0, 0, 0, 0.15);
+  border-radius: 1rem;
+  font-size: 2rem;
+  color: #9f9f9f;
+}
+
+.option_correct {
+  background-color: #60b84b;
+  color: #fff;
+}
+
+.option_correct::placeholder {
+  color: #fff;
+}
+
+.delete_icon {
+  font-size: 3rem;
+  fill: #d60000;
+  cursor: pointer;
+}
+
+.add_option {
+  margin-top: 2rem;
+  font-size: 2.1rem;
+  font-weight: 600;
+  color: #474444;
+}
+
+/* btns */
+.modal-btns {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.btn {
+  box-shadow: 0 0 12px 1px rgba(0, 0, 0, 0.2);
+  padding: 1rem 4rem;
+  font-size: 2.1rem;
+  border-radius: 1rem;
+  width: 25%;
+  text-align: center;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: #60b84b;
+  color: #fff;
+}
+
+.btn-secondary {
+  background-color: transparent;
+  color: #474444;
+  font-weight: 600;
+}

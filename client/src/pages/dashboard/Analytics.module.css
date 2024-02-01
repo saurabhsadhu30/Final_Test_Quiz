@@ -1,0 +1,111 @@
+.analytics {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 7rem;
+}
+
+.analytics_heading {
+  font-size: 5rem;
+  font-weight: 600;
+  color: #5076ff;
+}
+
+.table {
+  border-collapse: collapse;
+  display: table;
+  /* border: 2px solid red; */
+  width: 100%;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.thead {
+  background-color: #5076ff;
+  color: #fff;
+  height: 3rem;
+  font-size: 1.6rem;
+}
+
+.table_head_row {
+  border-radius: 2rem;
+}
+
+.tbody {
+  font-size: 1.6rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.tbody tr {
+  height: 4rem;
+}
+
+td:not(:first-child) {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+th:not(:first-child) {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+td:first-child,
+th:first-child {
+  border-radius: 1rem 0 0 1rem;
+}
+
+td:last-child,
+th:last-child {
+  border-radius: 0 1rem 1rem 0;
+}
+
+.tbody tr:nth-child(even) {
+  background-color: #b3c4ff;
+}
+
+/* delete modal */
+.delete-modal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+}
+
+.delete-modal h5 {
+  font-size: 3.6rem;
+  font-weight: 600;
+  color: #474444;
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.delete-modal-btns {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+}
+
+.btn {
+  box-shadow: 0 0 12px 1px rgba(0, 0, 0, 0.2);
+  padding: 1rem 4rem;
+  font-size: 1.6rem;
+  border-radius: 1rem;
+  width: 30%;
+  text-align: center;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: #ff4b4b;
+  color: #fff;
+}
+
+.btn-secondary {
+  background-color: transparent;
+}
+
+.question_analysis {
+  color: #000;
+}

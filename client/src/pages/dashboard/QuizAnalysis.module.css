@@ -1,0 +1,22 @@
+.question_container {
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+}
+
+.question-heading {
+  font-size: 4rem;
+  font-weight: 600;
+  color: #5076ff;
+}
+
+.question_create-container {
+  display: flex;
+  flex-direction: column;
+  color: #ff5d01;
+  font-weight: 600;
+  font-size: 1.6rem;
+}
+
+/* .question-report-container {
+} */

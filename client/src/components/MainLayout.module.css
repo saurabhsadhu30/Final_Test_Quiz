@@ -1,0 +1,12 @@
+.layout_container {
+  position: relative;
+}
+
+.layout_content {
+  background: #ededed;
+  min-height: 100vh;
+  padding-left: 20vw;
+  padding-right: 5vw;
+  padding-top: 8rem;
+  padding-bottom: 10rem;
+}

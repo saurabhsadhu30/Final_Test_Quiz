@@ -1,0 +1,29 @@
+.quiz_box {
+  background-color: #fff;
+  border-radius: 0.5rem;
+  padding: 1.2rem;
+}
+
+.quiz_box-stats {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.stats-number {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.stats-heading {
+  font-size: 2.3rem;
+  font-weight: 600;
+}
+
+.quiz_box-created {
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: #60b84b;
+}

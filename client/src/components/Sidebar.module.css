@@ -1,0 +1,164 @@
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  background-color: #fff;
+  box-shadow: 1px 0 4px 0px rgba(0, 0, 0, 0.25);
+  width: 15vw;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem 0 2rem 0;
+}
+
+.brand {
+  font-size: 7rem;
+  font-weight: 400;
+  text-decoration: none;
+  color: #474444;
+  font-family: "Jomhuria", serif;
+}
+
+.sidebar_links-container {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.sidebar_links-item {
+  padding: 1rem 5rem;
+  cursor: pointer;
+}
+
+.sidebar-link-active {
+  box-shadow: 0 0 12px 0px rgba(0, 0, 0, 0.12);
+  border-radius: 1rem;
+}
+
+.sidebar_links-item:hover {
+  box-shadow: 0 0 12px 0px rgba(0, 0, 0, 0.12);
+  border-radius: 1rem;
+}
+
+.sidebar_link {
+  text-decoration: none;
+  font-size: 2rem;
+  color: #474444;
+  font-weight: 600;
+}
+
+.logout_container {
+  height: 1px;
+  width: 10vw;
+  background-color: #000;
+  margin-bottom: 3rem;
+}
+
+.logout {
+  font-weight: 700;
+  font-size: 2rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  width: 100%;
+  text-align: center;
+}
+
+/* modal */
+
+.create-quiz-modal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+  width: 100%;
+}
+
+.quiz-name {
+  padding: 1rem;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0 0 12px 1px rgba(0, 0, 0, 0.15);
+  border-radius: 1rem;
+  font-size: 2rem;
+  color: #9f9f9f;
+}
+
+.quiz-type {
+  display: flex;
+  justify-content: space-between;
+  color: #9f9f9f;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.quiz-type label {
+  font-size: 2rem;
+}
+
+.quiz-type button {
+  box-shadow: 0 0 12px 1px rgba(0, 0, 0, 0.2);
+  padding: 0.5rem 4rem;
+  font-size: 1.6rem;
+  border-radius: 1rem;
+  text-align: center;
+  cursor: pointer;
+}
+
+.quiz-type-active {
+  background-color: #60b84b;
+  color: #fff;
+}
+
+.modal-btns {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.btn {
+  box-shadow: 0 0 12px 1px rgba(0, 0, 0, 0.2);
+  padding: 1rem 4rem;
+  font-size: 1.6rem;
+  border-radius: 1rem;
+  width: 30%;
+  text-align: center;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: #60b84b;
+  color: #fff;
+}
+
+.btn-secondary {
+  background-color: transparent;
+}
+
+/* share modal */
+.share-modal {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.share-modal h5 {
+  font-size: 3.6rem;
+  font-weight: 600;
+  color: #474444;
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.share-modal p {
+  padding: 0.8rem 2rem;
+  background-color: #ededed;
+  font-size: 2rem;
+  color: #474444;
+  font-weight: 600;
+  border-radius: 1rem;
+}

@@ -1,0 +1,91 @@
+.auth-container {
+  border-radius: 2rem;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.5);
+  height: 80%;
+  width: 80%;
+}
+
+.auth-heading {
+  font-size: 7rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  color: #474444;
+  font-weight: 400;
+  font-family: "Jomhuria", serif;
+}
+
+.auth-btns {
+  display: flex;
+  width: 40%;
+  justify-content: space-between;
+}
+
+.auth-btn {
+  width: 40%;
+  font-size: 2rem;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  text-align: center;
+  cursor: pointer;
+}
+
+.auth-btn-active {
+  box-shadow: 0px 0px 20px 0px rgba(0, 25, 255, 0.5);
+}
+
+.auth-cta {
+  background-color: #a9bcff;
+  border-radius: 0.8rem;
+  width: 20%;
+  font-size: 2rem;
+  padding: 0.4rem 0;
+  color: #474444;
+  text-align: center;
+  cursor: pointer;
+}
+
+.login-signup-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  gap: 3rem;
+  margin: 5rem;
+}
+
+.input-container {
+  width: 100%;
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+}
+
+.input-label {
+  font-size: 2rem;
+  text-align: end;
+  /* border: 2px solid red; */
+  display: inline-block;
+  width: 40%;
+}
+
+.input {
+  background-color: #f4f4f4;
+  border-top-right-radius: 1rem;
+  border-top-left-radius: 1rem;
+  padding: 1rem 0;
+  width: 80%;
+  margin-left: auto;
+  font-size: 1.6rem;
+  padding-left: 1rem;
+  color: #444;
+  font-weight: 500;
+}
+
+.input-error {
+  color: #d60000;
+  outline: 1px solid #d60000;
+}
+
+.input::placeholder {
+  color: #999;
+}

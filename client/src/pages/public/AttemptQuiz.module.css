@@ -1,0 +1,160 @@
+.main_container {
+  background-color: #041325;
+  padding: 2rem;
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #474444;
+}
+
+.section {
+  background-color: #fff;
+  border-radius: 1.5rem;
+  width: 80%;
+  min-height: 80vh;
+  padding: 2rem;
+}
+
+.question-number {
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.question-timer {
+  font-size: 4rem;
+  font-weight: 700;
+  color: #d60000;
+}
+
+.question {
+  font-size: 4rem;
+  font-weight: 700;
+  margin: 5rem 0;
+}
+
+.option_container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 2rem;
+  column-gap: 10rem;
+  row-gap: 6rem;
+}
+
+.option {
+  font-size: 3.5rem;
+  font-weight: 600;
+  border-radius: 1rem;
+  background-color: #f0f0f0;
+  cursor: pointer;
+  color: #000000;
+  height: 11rem;
+  display: flex;
+  align-items: center;
+}
+
+.option p {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.option_img {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  object-fit: fill;
+  overflow: hidden;
+  border-radius: 1rem;
+  display: block;
+}
+
+.option_img_text {
+  width: 50%;
+  margin: 1rem;
+  height: 90%;
+}
+
+.option-active {
+  border: 4px solid #5076ff;
+}
+
+.submit {
+  display: flex;
+  justify-content: center;
+  margin-top: 6rem;
+}
+
+.submit button {
+  background-color: #60b84b;
+  border-radius: 1rem;
+  width: 30%;
+  font-size: 3rem;
+  padding: 0.4rem;
+  text-align: center;
+  color: #fff;
+  font-weight: 600;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.quiz_completed {
+  display: flex;
+  gap: 3rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 80vh;
+  margin: 0 auto;
+}
+
+.quiz_completed p {
+  font-size: 4rem;
+  color: #474444;
+  font-weight: 600;
+  text-align: center;
+}
+
+.quiz_completed span {
+  color: #60b84b;
+}
+
+.poll_completed {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  font-size: 7.4rem;
+  height: 80vh;
+  text-align: center;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 760px) {
+  .main_container {
+    padding: 0;
+  }
+  .section {
+    width: 100%;
+    min-height: 100vh;
+    border-radius: 0;
+    padding: 3rem;
+  }
+
+  .option_container {
+    grid-template-columns: 1fr;
+  }
+
+  .submit button {
+    width: 60%;
+    padding: 1rem;
+  }
+
+  .quiz_completed p {
+    /* font-size: 7rem; */
+  }
+}
